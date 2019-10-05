@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Find Train</title>
+    <title>Find Your Train</title>
     <link rel="stylesheet" href="{% static
 'ticket/static/css/screen.css' %}" />
 </head>
 <body>
-  <h2>Enter Source and Destination</h2>
+  <h2>Please enter source</h2>
+  <h2>Please enter destination</h2>
   <div class = "container">
       <form action = "result/" method="POST">{% csrf_token %}
       <label for="source" class="station">Source</label>
